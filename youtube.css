@@ -144,8 +144,42 @@ p{
     margin-left: -1px;
     margin-right: 10px;
     cursor: pointer;
+    position: relative;
 
 }
+
+.search-button .tooltip{
+    position: absolute;
+    top: 50px;
+    padding: 8px;
+    background-color: rgb(109, 106, 106);
+    font-size: 13px;
+    color: #fff;
+    border-radius: 1px;
+    opacity: 0;
+}
+
+.search-button:hover > .tooltip{
+    opacity: 1;
+}
+
+.voice-search .tooltip{
+    position: absolute;
+    top: 60px;
+    left: 60%;
+    padding: 8px;
+    background-color: rgb(109, 106, 106);
+    font-size: 13px;
+    color: #fff;
+    border-radius: 1px;
+    opacity: 0;
+    
+}
+
+.voice-search:hover > .tooltip{
+    opacity: 1;
+}
+
 
 .search-icon{
     height: 25px;
@@ -179,6 +213,57 @@ p{
     flex-shrink: 0;
     position: relative;
    
+}
+
+.right-section .tooltip-1{
+    position: absolute;
+    top: 50px;
+    right: 80%;
+    padding: 8px;
+    background-color: rgb(109, 106, 106);
+    font-size: 13px;
+    color: #fff;
+    border-radius: 1px;
+    opacity: 0;
+
+}
+
+.right-section .tooltip-2{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding: 8px;
+    background-color: rgb(109, 106, 106);
+    font-size: 13px;
+    color: #fff;
+    border-radius: 1px;
+    opacity: 0;
+    
+
+}
+
+.right-section .tooltip-3{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    padding: 7px;
+    background-color: rgb(109, 106, 106);
+    font-size: 12px;
+    color: #fff;
+    border-radius: 1px;
+    opacity: 0;
+    
+
+}
+
+.upload:hover > .tooltip-1{
+    opacity: 1;
+}
+.apps:hover > .tooltip-2{
+    opacity: 1;
+}
+.notify:hover > .tooltip-3{
+    opacity: 1;
 }
 
 .noti-number{
